@@ -25,5 +25,9 @@ a:hover {
 
 img {
   max-width: 100%;
-  display: block;
+  display:flex;
+}
+code{
+  color: salmon;
+  margin: 1px;
 }

@@ -14,16 +14,17 @@ export async function getStaticProps() {
   };
 } 
 export default function Home({allPostsData}) {
+  
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I am Cirno.</p>
+        <p>I am CirnoTox.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          This is my blog based on{" "}
+          <a href="https://nextjs.org/learn">Next.js</a>.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

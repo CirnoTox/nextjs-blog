@@ -3,8 +3,9 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import 'highlight.js/styles/base16/dracula.css'
 
-const name = 'Cirno';
+const name = 'CirnoTox';
 export const siteTitle = 'Hello world';
 
 export default function Layout({ children, home }) {
@@ -26,7 +27,6 @@ export default function Layout({ children, home }) {
             <Image
               priority
               src="/images/uuz.ico"
-              className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt={name}
@@ -40,9 +40,8 @@ export default function Layout({ children, home }) {
                 <Image
                   priority
                   src="/images/uuz.ico"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
+                  height={144}
+                  width={144}
                   alt={name}
                 />
               </a>
